@@ -10,6 +10,7 @@ public class App
     {
         App app = new App();
         app.start();
+
     }
 
     public void start() {
@@ -20,12 +21,19 @@ public class App
         myCounter.click();
         myCounter.click();
         myCounter.click();
-
         //TODO - add call to reset() that you implement in Counter class
-
+        myCounter.reset();
+        myCounter.display();
 
         //TODO - add call to undo() that you implement in Counter class
-
+        myCounter.click();
+        myCounter.click();
+        myCounter.click();
+        myCounter.display();
+        myCounter.undo();
+        myCounter.undo();
+        myCounter.undo();
+        myCounter.undo();
         //TODO
         // Add a JUnit test method to test undo()
 
