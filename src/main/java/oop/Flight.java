@@ -43,5 +43,14 @@ public class Flight {
         this.departureTime = departureTime;
     }
 
-
+    @Override
+    public String toString() {
+        return "Flight{" +
+                "number=" + number +
+                ", departsFrom='" + departsFrom + '\'' +
+                ", destination='" + destination + '\'' +
+                ", departureTime=" + departureTime +
+                '}';
     }
+}
+

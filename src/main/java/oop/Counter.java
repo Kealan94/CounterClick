@@ -15,7 +15,8 @@ public class Counter {
         System.out.println("Counter constructor called, limit set to " + limit);
     }
 
-    public Counter() {   // no-argument (default) constructor
+    public Counter() {
+        this.count = 0;// no-argument (default) constructor
         limit = 10;
     }
 

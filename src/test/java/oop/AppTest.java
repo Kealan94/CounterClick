@@ -33,7 +33,7 @@ public class AppTest
         assertEquals(expected, actual);
     }
 
-    public void undoTest2(){
+    public void limitTest(){
         Counter counter = new Counter();
         counter.undo();
         int expected = 0;
